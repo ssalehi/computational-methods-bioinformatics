@@ -7,5 +7,5 @@ print("You entered : {seperatedWords}")
 
 x = seperatedWords.find(" ")
 
-myList = [seperatedWords[:x-1], seperatedWords[x:]]
+myList = [seperatedWords[:x], seperatedWords[x:]]
 print(myList)
